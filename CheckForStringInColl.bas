@@ -15,7 +15,7 @@ Define_Varaibles:
     
 Function_Initialize:
     
-    CheckForStringInColl = 0                                'return zero if the string is not found
+    CheckForStringInColl = 0                                'return zero if the string is not found.
     
 Check_Collection_For_Users_String:
 
