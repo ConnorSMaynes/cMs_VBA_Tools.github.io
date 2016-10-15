@@ -20,7 +20,7 @@ Define_Variables:
 Create_Collection:
     
     startCell = startCol & startRow
-    endRow = uSheet.Range(startCol & 1048576).End(xlUp).Row                         'find the last filled row number
+    endRow = uSheet.Range(startCol & 1048576).End(xlUp).Row                         'find the last filled row number in startCol
     If UCase(ignoreBlanksYesNo) = "YES" Or ignoreBlanksYesNo = vbNullString Then    'default is to ignore blanks
         If UCase(uniquesYesNo) = "NO" Then                                          'if the user wants a collection and not a uniques collection
             For Each activeCell In uSheet.Range(startCell & ":" & startCol & endRow)
