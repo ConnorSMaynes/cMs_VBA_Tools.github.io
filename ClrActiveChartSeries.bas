@@ -6,7 +6,7 @@ Sub ClrActiveChartSeries()
 
 Define_Variables:
 
-  Dim s                                         'iterative series variable
+  Dim s                                         'iterative variable for looping through series in active chart
   
 Delete_All_Series_From_Active_Chart:
   
