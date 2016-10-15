@@ -6,7 +6,7 @@ Function CvtCollToArr(uColl As Collection) As Variant()
 
 Define_Variables:
 
-    Dim uArr() As Variant                   'intermediate array
+    Dim uArr() As Variant                   'intermediate array to store converted collection
     Dim i As Integer                        'iterative array and collection variable
     
 Convert_Collection_to_Array:
