@@ -23,7 +23,7 @@ Create_And_Return_Collection:
     
 stop_function:
     
-    If SelColl.Count = 0 Then                   'if there were no selections return error to user and end all processes
+    If SelColl.Count = 0 Then                   'if there were no selections, return error to user and end all processes
         MsgBox ("A selection from a listbox is missing.")
         End
     End If
