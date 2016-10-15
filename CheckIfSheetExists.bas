@@ -4,7 +4,7 @@ Function CheckIfSheetExists(shtName As String, Optional wb As Workbook) As Boole
     
 'Purpose:   Return boolean TRUE if a sheet exists.
 
-Define_Variables:
+Define_Variable:
 
     Dim sht As Worksheet
     
