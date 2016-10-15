@@ -33,7 +33,7 @@ Print_Collection:
             uSheet.Range(uCol & uRow) = uSheet.Range(uCol & uRow) & ", " & uColl.Item(i)
             i = i + indexIncrmt                                     'make periodic collection element jump
         Loop
-    Else                                                            'if comma-separated not selected, print down the column
+  Else                                                            'if comma-separated option not selected, print down the column
         i = indexStart
         Do While i <= indexEnd
             uSheet.Range(uCol & uRow) = uColl.Item(i)
