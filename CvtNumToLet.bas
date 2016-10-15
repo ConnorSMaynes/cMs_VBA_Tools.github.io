@@ -6,7 +6,7 @@ Function CvtNumToLet(ByVal iCol As Integer) As String
    
 Define_Variables:
 
-   Dim iAlpha As Integer                                    'store integer value from letter
+   Dim iAlpha As Integer                                    'store integer value from letter after calculation
    Dim iRemainder As Integer                                'store remainder value from letter division
    
 Function_Initialize:
